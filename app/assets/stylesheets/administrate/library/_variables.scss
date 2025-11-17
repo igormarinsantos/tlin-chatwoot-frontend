@@ -1,8 +1,10 @@
 // Typography
-$base-font-family: Dm-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif !default;
-$heading-font-family: $base-font-family !default;
+// Importa a fonte de forma correta
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+// Define a fonte global sem fallback
+$base-font-family: "DM Sans" !default;
+$heading-font-family: "DM Sans" !default;
 
 $base-font-size: 16px !default;
 

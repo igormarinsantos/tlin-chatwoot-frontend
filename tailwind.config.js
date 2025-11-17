@@ -38,10 +38,12 @@ const tailwindConfig = {
   theme: {
     extend: {
       fontFamily: {
-        sans: defaultSansFonts,
-        inter: ['Inter', ...defaultSansFonts],
-        interDisplay: ['Inter Display', ...defaultSansFonts],
-      },
+  // todas as fontes sans do Tailwind passam a ser DM Sans
+  sans: defaultSansFonts,
+  // qualquer lugar que peça "inter" ou "interDisplay" também vira DM Sans
+  inter: ['"DM Sans"'],
+  interDisplay: ['"DM Sans"'],
+},
       typography: {
         bubble: {
           css: {

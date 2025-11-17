@@ -1,22 +1,36 @@
-html {
-  background-color: $color-white;
-  box-sizing: border-box;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
+// =============================
+// Tlin.ai Typography Override
+// =============================
+
+// Carrega APENAS DM Sans (sem fallback)
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+// Fonte global absoluta
+html, body {
+  font-family: "DM Sans" !important;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DM Sans" !important;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
-figure {
-  margin: 0;
+// Links
+a {
+  font-family: "DM Sans" !important;
+  text-decoration: none;
 }
 
-img,
-picture {
-  margin: 0;
-  max-width: 100%;
+// Inputs, buttons, forms
+input, select, textarea, button {
+  font-family: "DM Sans" !important;
+}
+
+// Lists, tables, labels
+li, label, th, td {
+  font-family: "DM Sans" !important;
 }

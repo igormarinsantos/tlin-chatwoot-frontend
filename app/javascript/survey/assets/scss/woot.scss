@@ -1,3 +1,6 @@
+// Carrega DM Sans especificamente pro widget
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -7,7 +10,7 @@
 
 html,
 body {
-  font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Tahoma, Arial, sans-serif;
+  font-family: "DM Sans";
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   height: 100%;
